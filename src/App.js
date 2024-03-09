@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// import Navbar from './components/pages/Navbar';
+// import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import Body from './components/Body';
+// import { Route,Routes } from 'react-router-dom';
+// import User from './components/pages/User/User'
+// import Officials from './components/pages/Officials/Officials';
+// import Donations from './components/pages/Donations/Officials/Donations';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+     
+     <Body/>
+    
     </div>
   );
 }
